@@ -2,8 +2,6 @@ name: Runs on Jupyter4NFDI
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 7 * * 1"
 
 jobs:
   notebooks:
